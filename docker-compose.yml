@@ -14,7 +14,6 @@ services:
 
   db:
     image: mysql:8.0
-    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 18120113
     volumes:
@@ -22,7 +21,6 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    restart: always
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
