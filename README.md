@@ -20,7 +20,7 @@ The above is the default configuration, you can configure it in the following fi
 - `docker-compose.yml`
 - `taskbox/config.php`
 
-Congratulations on completing the Website installation, access http://localhost to use.
+Congratulations on completing the Website installation, access http://localhost:8000 to use.
 
 ## Features
 
